@@ -31,7 +31,7 @@ export const signUp = (userData) => async (dispatch) => {
   try {
     const User = await axios({
       method: "POST",
-      url: `https://zomato--backend.herokuapp.com/signup`,
+      url: `https://zomato--backend.herokuapp.com/auth/signup`,
       data: { credentials: userData },
     });
 
