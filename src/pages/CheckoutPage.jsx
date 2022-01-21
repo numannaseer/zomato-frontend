@@ -42,7 +42,7 @@ function CheckoutPage() {
         ) * 100,
       currency: "INR",
       name: "Zomato",
-      description: "Fast Delivery Service",
+      description: "Food Delivery Service",
       image:
         "https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png",
       handler: (data) => {
@@ -71,7 +71,7 @@ function CheckoutPage() {
           <h5 className="text-base tracking-wider">ORDER FROM</h5>
           <div className="flex w-full flex-col items-center text-gray-400">
             <h4>Domino's Pizza</h4>
-            <small>GT Woorld Mall, Magadi Road, NCR Noida</small>
+            <small>GT World Mall, Magadi Road, NCR Noida</small>
           </div>
           <div className="my-4 h-32 overflow-y-scroll px-4 flex flex-col gap-2 w-full md:w-3/5">
             {reduxStateCart?.map((food) => (
