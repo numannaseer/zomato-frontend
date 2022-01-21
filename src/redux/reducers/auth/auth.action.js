@@ -53,7 +53,7 @@ export const signOut = () => async (dispatch) => {
     localStorage.removeItem("zomatoUser");
     clearUser();
     window.location.href =
-      "https://unruffled-hopper-ba4778.netlify.app/delivery";
+      "https://vibrant-hodgkin-f38696.netlify.app";
 
     return dispatch({ type: SIGN_OUT, payload: {} });
   } catch (error) {
