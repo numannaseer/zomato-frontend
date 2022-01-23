@@ -106,7 +106,7 @@ function Overview() {
           </div>
           <div className="my-4">
             <h4 className="text-lg font-medium">Average Cost</h4>
-            <h6>${reduxState?.averageCost} for one order (approx.)</h6>
+            <h6>	&#8377; {reduxState?.averageCost} for one order (approx.)</h6>
             <small className="text-gray-500">
               Exclusive of applicable taxes and charges, if any
             </small>
