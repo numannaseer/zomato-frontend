@@ -38,7 +38,7 @@ function RestaurantCard(props) {
               )}
               {props.isOff && (
                 <span className="bg-blue-600 text-white px-2 py-1 rounded text-sm">
-                  $250 OFF
+                  &#8377;250 OFF
                 </span>
               )}
             </div>

@@ -46,8 +46,8 @@ function NutritionCard(props) {
           </div>
           <div>
             <span>
-              <s className="text-gray-300 font-light mt-3">$600</s>{" "}
-              <strong>$320</strong>
+              <s className="text-gray-300 font-light mt-3">&#8377;600</s>{" "}
+              <strong>&#8377;320</strong>
             </span>
             <p>Monthly pack - 30 capsules</p>
           </div>
