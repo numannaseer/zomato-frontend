@@ -15,15 +15,15 @@ function CheckoutPage() {
   const address = [
     {
       name: "Home",
-      address: "123 Main St",
+      address: "Door #125, 2nd floor, 6th Main St, JP Nagar, Bangalore",
     },
     {
       name: "Work",
-      address: "123 Main St",
+      address: "Building #35, 13th floor, 3rd Main St, Electronic City, Bangalore",
     },
     {
       name: "Other",
-      address: "123 Main St",
+      address: "Door #243, 6th floor, 12th Main St, Shivajinagar, Bangalore",
     },
   ];
 
@@ -70,8 +70,8 @@ function CheckoutPage() {
         <div className="flex w-full flex-col gap-2 items-center">
           <h5 className="text-base tracking-wider">ORDER FROM</h5>
           <div className="flex w-full flex-col items-center text-gray-400">
-            <h4>Domino's Pizza</h4>
-            <small>GT World Mall, Magadi Road, NCR Noida</small>
+            <h4>McDonald's</h4>
+            <small>Gopalan Mall, BTM 4th Stage, Bangalore, Karnataka</small>
           </div>
           <div className="my-4 h-32 overflow-y-scroll px-4 flex flex-col gap-2 w-full md:w-3/5">
             {reduxStateCart?.map((food) => (

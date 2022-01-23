@@ -57,7 +57,7 @@ function RestaurantCard(props) {
             </div>
             <div className="flex items-center justify-between text-gray-500">
               <p>{props.cuisine.join(", ")}</p>
-              <p>$ {props.averageCost} for one</p>
+              <p>Starting at {props.averageCost}&#8377;</p>
             </div>
           </div>
         </div>

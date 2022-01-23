@@ -18,7 +18,7 @@ function Delivery() {
     <>
       <DeliveryCarousel />
       <h1 className="text-xl mt-4 mb-2 md:mt-8 md:text-3xl md:font-semibold">
-        Delivery Restaurants in NCR(Delhi)
+        Delivery Restaurants in Bangalore
       </h1>
       <div className="flex justify-between flex-wrap mt-5">
         {restaurantList.map((restaurant) => (

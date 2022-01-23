@@ -18,14 +18,14 @@ export const getRestaurant = () => async (dispatch) => {
 
 export const getSpecificRestaurant = (_id) => async (dispatch) => {
   try {
-    const restaurnat = await axios({
+    const restaurant = await axios({
       method: "GET",
       url: `https://zomato--backend.herokuapp.com/restaurant/${_id}`,
     });
 
     return dispatch({
       type: GET_SPECIFIC_RESTAURANT,
-      payload: restaurnat.data,
+      payload: restaurant.data,
     });
   } catch (error) {
     return dispatch({ type: "ERROR", payload: error });

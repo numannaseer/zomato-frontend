@@ -7,7 +7,7 @@ function ImageGrid(props) {
       <div className="w-full h-60 md:hidden">
         <img
           src={props.images.length && props.images[0].location}
-          alt="restaurnat"
+          alt="restaurant"
           className="w-full h-full object-cover object-center rounded-lg"
         />
       </div>
