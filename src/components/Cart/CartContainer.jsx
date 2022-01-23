@@ -54,7 +54,7 @@ function CartLG({ toggle }) {
             {reduxState.length} Item <IoMdArrowDropup />
           </small>
           <h4>
-            ${reduxState.reduce((acc, curVal) => acc + curVal.totalPrice, 0)}{" "}
+          &#8377;{reduxState.reduce((acc, curVal) => acc + curVal.totalPrice, 0)}{" "}
             <sub>(plus tax)</sub>
           </h4>
         </div>
