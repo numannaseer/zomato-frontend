@@ -114,7 +114,7 @@ function LargeNav({ SignIn, SignUp }) {
                 className="border border-gray-300 text-zomato-400 w-full h-20 rounded-full"
               >
                 <img
-                  src="https://cdn1.vectorstock.com/i/1000x1000/36/15/businessman-character-avatar-isolated-vector-12613615.jpg"
+                  src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
                   alt=""
                   className="w-full h-full rounded-full object-cover"
                 />
