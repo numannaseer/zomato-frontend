@@ -24,8 +24,10 @@ function RestaurantLayout({ children }) {
     name: "",
     cuisine: "",
     address: "",
-    restaurantRating: 4.1,
-    deliveryRating: 3.2,
+    restaurantRating: 0,
+    deliveryRating: 0,
+    deliveryRatingCount:0,
+    restaurantRatingCount:0
   });
 
   const { id } = useParams();
@@ -57,10 +59,12 @@ function RestaurantLayout({ children }) {
         <ImageGrid images={restaurant.images} />
         <RestaurantInfo
           name={restaurant?.name}
-          restaurantRating={restaurant?.restaurantRating || 0}
-          deliveryRating={restaurant?.deliveryRating || 0}
+          restaurantRating={restaurant?.restaurantReviewValue || 0}
+          deliveryRating={restaurant?.deliveryReviewValue || 0}
           cuisine={restaurant?.cuisine}
           address={restaurant?.address}
+          deliveryRatingCount={restaurant?.deliveryReviewCount || 0}
+          restaurantRatingCount={restaurant?.restaurantReviewCount || 0}
         />
         <div className="my-4 flex flex-wrap gap-3 mx-auto">
           <InfoButton isActive={true}>

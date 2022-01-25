@@ -2,7 +2,7 @@ import React from "react";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import ReactStars from "react-rating-stars-component";
 
-function NutritionCard(props) {
+function NutritionCard2(props) {
   return (
     <div className="w-full p-4 md:w-1/2 lg:w-1/3">
       <div className="w-full h-full bg-white rounded-2xl shadow-lg">
@@ -33,23 +33,23 @@ function NutritionCard(props) {
               halfIcon={<BsStarHalf />}
               fullIcon={<BsStarFill />}
             />
-            <span className="text-gray-400" style={{"font-size":"15px"}}>237</span>
+            <span className="text-gray-400" style={{"font-size":"15px"}}>290</span>
           </div>
           <h3 className="text-xl font-bold text-400">
-            Zomato - Burn
+            Zomato - Bones
           </h3>
-          <p className="text-sm  text-gray-500">
-          Zomato Burn with Caffeine, L-Carnitine & Chromium | Improves Metabolism, Energy & Endurance | Pre Workout & Metabolism Booster, Liquid Filled for Fast Absorption - Veg Capsules 30 Count
+          <p className="text-sm text-gray-500">
+          Zomato Advance Calcium formula with Vitamin D3 & Magnesium | For Stronger Bones & Muscles | Daily Calcium Tablets For Men & Women - 30 Tablets
           </p>
           <div className="mt-4">
             <hr />
           </div>
           <div>
             <span>
-              <s className="text-gray-300 font-light mt-3">&#8377;583</s>{" "}
-              <strong>&#8377;483</strong>
+              <s className="text-gray-300 font-light mt-3">&#8377;599</s>{" "}
+              <strong>&#8377;499</strong>
             </span>
-            <p>Monthly pack - 30 capsules</p>
+            <p>Monthly pack - 30 tablets</p>
           </div>
         </div>
       </div>
@@ -57,4 +57,4 @@ function NutritionCard(props) {
   );
 }
 
-export default NutritionCard;
+export default NutritionCard2;

@@ -14,7 +14,7 @@ function RestaurantInfo(props) {
                 {props.restaurantRating} <TiStarFullOutline />
               </span>
               <span>
-                <strong>2</strong>
+                <strong>{props.restaurantRatingCount}</strong>
                 <p className="border-dashed border-b">Dining Reviews</p>
               </span>
             </div>
@@ -23,7 +23,7 @@ function RestaurantInfo(props) {
                 {props.deliveryRating} <TiStarFullOutline />
               </span>
               <span>
-                <strong>200</strong>
+                <strong>{props.deliveryRatingCount}</strong>
                 <p className="border-dashed border-b">Delivery Reviews</p>
               </span>
             </div>
@@ -33,7 +33,7 @@ function RestaurantInfo(props) {
           <h3>{props.cuisine && props.cuisine.join(", ")}</h3>
           <h3 className="text-gray-400">{props.address}</h3>
           <div>
-            <span className="text-yellow-500">Open Now</span> - 11am - 8pm
+            <span className="text-yellow-500">Open Now</span> - 8am - 9pm
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ function DeliverySmCard({ image, title }) {
 function DeliveryLgCard({ image, title }) {
   return (
     <>
-      <div className="hidden lg:block w-64 px-9">
+      <div className="hidden lg:block w-64 px-3">
         <div className="w-full h-52">
           <img
             className="w-full h-full object-cover object-center rounded-md"

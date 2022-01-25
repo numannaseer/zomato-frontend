@@ -6,8 +6,9 @@ export const NextArrow = (props) => {
       className={props.className}
       style={{
         ...props.style,
+        lineHeight:"2",
         backgroundColor: "rgb(142 142 142)",
-        borderRadius: "50%",
+        borderRadius: "100%",
       }}
       onClick={props.onClick}
     />

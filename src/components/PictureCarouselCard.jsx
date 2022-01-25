@@ -4,7 +4,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 function PictureCarouselCard(props) {
   return (
     <>
-      <div className="w-full h-64 relative px-4 overflow-hidden">
+      <div className="w-full h-64 relative px-4 mx-0 overflow-hidden">
         <div className="w-full h-full relative">
           <img
             src={props.image}

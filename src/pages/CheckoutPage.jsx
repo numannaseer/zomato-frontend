@@ -70,8 +70,7 @@ function CheckoutPage() {
         <div className="flex w-full flex-col gap-2 items-center">
           <h5 className="text-base tracking-wider">ORDER FROM</h5>
           <div className="flex w-full flex-col items-center text-gray-400">
-            <h4>McDonald's</h4>
-            <small>Gopalan Mall, BTM 4th Stage, Bangalore, Karnataka</small>
+            <h4>Zomato</h4>
           </div>
           <div className="my-4 h-32 overflow-y-scroll px-4 flex flex-col gap-2 w-full md:w-3/5">
             {reduxStateCart?.map((food) => (

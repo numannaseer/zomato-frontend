@@ -67,9 +67,11 @@ function DeliveryCarousel() {
 
   return (
     <>
+    <br />
       <h1 className="text-xl mb-4 font-semibold" style={{fontSize:"40px"}}>
         Inspiration for your first order
       </h1>
+      <br />
       <div className="lg:hidden flex gap-3 lg:gap-0 flex-wrap justify-between">
         {categories.map((food) => (
           <DeliveryCategory {...food} />
@@ -82,6 +84,8 @@ function DeliveryCarousel() {
           ))}
         </Slider>
       </div>
+      <br />
+      <br />
     </>
   );
 }

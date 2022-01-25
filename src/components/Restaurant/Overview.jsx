@@ -160,10 +160,10 @@ function Overview() {
             </div>
             <div className="my-4 w-full md:hidden flex flex-col gap-4">
               <MapView
-                title="McDonald's"
-                phno="+919234345634"
-                mapLocation={getLatLong("28.64435706075414, 77.11929960209767")}
-                address="Shop 52, Plot 8, 9 & 10, G-8, Ground Floor, DDA Market, J-Block, Community Centre, Rajouri Garden, New Delhi"
+                title="Restaurant"
+                phno="+9112345678900"
+                mapLocation={getLatLong("12.898622, 77.570897")}
+                address="JP Nagar, Bangalore"
               />
             </div>
           </div>
@@ -173,10 +173,10 @@ function Overview() {
           className="hidden md:flex md:w-4/12 sticky rounded-xl top-10 bg-white p-3 shadow-md flex-col gap-4"
         >
           <MapView
-            title="McDonald's"
-            phno="+919234345634"
-            mapLocation={getLatLong("28.64435706075414, 77.11929960209767")}
-            address="Shop 52, Plot 8, 9 & 10, G-8, Ground Floor, DDA Market, J-Block, Community Centre, Rajouri Garden, New Delhi"
+            title="Restaurant"
+            phno="+9112345678900"
+            mapLocation={getLatLong("12.898622, 77.570897")}
+            address="JP Nagar, Bangalore"
           />
         </aside>
       </div>

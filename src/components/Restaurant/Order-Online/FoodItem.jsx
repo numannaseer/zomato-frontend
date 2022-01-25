@@ -71,7 +71,7 @@ function FoodItem(props) {
                   )}
                 </button>
               </div>
-              <ReactStars count={5} value={props?.rating} />
+              <ReactStars count={5} value={food?.rating} />
               <h5>&#8377;{food?.price}</h5>
               <p>{food?.description}</p>
             </div>
