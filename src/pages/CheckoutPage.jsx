@@ -12,20 +12,20 @@ import FoodItem from "../components/Cart/FoodItem";
 import AddressList from "../components/Checkout/AddressList";
 
 function CheckoutPage() {
-  // const address = [
-  //   {
-  //     name: "Home",
-  //     address: "Door #125, 2nd floor, 6th Main St, JP Nagar, Bangalore",
-  //   },
-  //   {
-  //     name: "Work",
-  //     address: "Building #35, 13th floor, 3rd Main St, Electronic City, Bangalore",
-  //   },
-  //   {
-  //     name: "Other",
-  //     address: "Door #243, 6th floor, 12th Main St, Shivajinagar, Bangalore",
-  //   },
-  // ];
+  const address = [
+    {
+      name: "Home",
+      address: "Door #125, 2nd floor, 6th Main St, JP Nagar, Bangalore",
+    },
+    {
+      name: "Work",
+      address: "Building #35, 13th floor, 3rd Main St, Electronic City, Bangalore",
+    },
+    {
+      name: "Other",
+      address: "Door #243, 6th floor, 12th Main St, Shivajinagar, Bangalore",
+    },
+  ];
 
   const reduxStateCart = useSelector((globalState) => globalState.cart.cart);
   const reduxStateUser = useSelector(
@@ -57,7 +57,7 @@ function CheckoutPage() {
         color: "#e23744",
       },
     };
-const address=reduxStateUser.address;
+
     let razorPay = new window.Razorpay(options);
     razorPay.open();
   };
