@@ -108,7 +108,7 @@ function LargeNav({ SignIn, SignUp }) {
             </div>
           </div>
           {reduxState?.fullName ? (
-            <div className="relative w-20">
+            <div className="relative w-20 justify-around flex" >
               <div
                 onClick={() => setIsDropDownOpen((prev) => !prev)}
                 className="border border-gray-300 text-zomato-400 w-12 h-12 rounded-full"
