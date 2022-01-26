@@ -116,8 +116,9 @@ function LargeNav({ SignIn, SignUp }) {
                 <img
                   src="https://flyclipart.com/thumb2/human-human-avatar-male-icon-with-png-and-vector-format-for-free-19807.png"
                   alt=""
-                  className="w-full rounded-full object-cover"
+                  className="w-full h-full rounded-full object-cover"
                 />
+                {reduxState?.fullName}
               </div>
               {isDropDownOpen && (
                 <div className="absolute shadow-lg py-3 -bottom-20 -right-4 w-full bg-white z-20 flex flex-col gap-2">
