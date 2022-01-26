@@ -12,7 +12,7 @@ export default function AddressList(props) {
           <div className="space-y-2">
             {props.address.map((item) => (
               <RadioGroup.Option
-                key={item.name}
+                key={item?.details}
                 value={item}
                 className={({ active, checked }) =>
                   `${
@@ -39,7 +39,7 @@ export default function AddressList(props) {
                               checked ? "text-zomato-600" : "text-gray-900"
                             }`}
                           >
-                            {item.name}
+                            {item?.details}
                           </RadioGroup.Label>
                           <RadioGroup.Description
                             as="span"
@@ -47,7 +47,7 @@ export default function AddressList(props) {
                               checked ? "text-zomato-500" : "text-gray-500"
                             }`}
                           >
-                            <span>{item.address}</span>
+                            <span>{item?.for}</span>
                           </RadioGroup.Description>
                         </div>
                       </div>
