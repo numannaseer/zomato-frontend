@@ -111,12 +111,12 @@ function LargeNav({ SignIn, SignUp }) {
             <div className="relative w-20">
               <div
                 onClick={() => setIsDropDownOpen((prev) => !prev)}
-                className="border border-gray-300 text-zomato-400 w-full h-20 rounded-full"
+                className="border border-gray-300 text-zomato-100 w-full h-15 rounded-full"
               >
                 <img
                   src="https://flyclipart.com/thumb2/human-human-avatar-male-icon-with-png-and-vector-format-for-free-19807.png"
                   alt=""
-                  className="w-full h-full rounded-full object-cover"
+                  className="w-full rounded-full object-cover"
                 />
               </div>
               {isDropDownOpen && (
