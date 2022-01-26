@@ -34,15 +34,16 @@ function MobileNav({ SignIn, SignUp }) {
         {reduxState?.fullName ? (
           <>
             <div
-              onClick={() => setIsDropDownOpen((prev) => !prev)}
-              className="border border-gray-300 text-zomato-400 w-20 h-20 rounded-full"
-            >
-              <img
-                src="https://flyclipart.com/thumb2/human-human-avatar-male-icon-with-png-and-vector-format-for-free-19807.png"
-                alt=""
-                className="w-full h-full rounded-full object-cover"
-              />
-            </div>
+                onClick={() => setIsDropDownOpen((prev) => !prev)}
+                className="border border-gray-300 text-zomato-400 w-12 h-12 rounded-full"
+              >
+                <img
+                  src="https://flyclipart.com/thumb2/human-human-avatar-male-icon-with-png-and-vector-format-for-free-19807.png"
+                  alt=""
+                  className="w-full h-full rounded-full object-cover" style={{"display":"inline-flex"}}
+                />
+               <span style={{"display":"inline-flex", "color":"grey"}}>{reduxState?.fullName.slice(0,7) +'..'}</span> 
+              </div>
             {isDropDownOpen && (
               <div className="absolute shadow-lg py-3 -bottom-20 -right-4 w-full bg-white z-20 flex flex-col gap-2">
                 <button onClick={() => dispatch(signOut())}>Sign Out</button>
