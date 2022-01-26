@@ -38,9 +38,6 @@ const randAvatar=avatars[rand];
             </div>
             <div className="flex flex-col">
               <h3 className="text-lg font-semibold">{user}</h3>
-              {/* <small className="text-gray-500">
-                5 Reviews &#8226; 3 Followers
-              </small> */}
             </div>
           </div>
           <button className="text-zomato-400 border border-zomato-400 py-2 rounded-lg px-4">

@@ -33,7 +33,7 @@ function RestaurantInfo(props) {
           <h3>{props.cuisine && props.cuisine.join(", ")}</h3>
           <h3 className="text-gray-400">{props.address}</h3>
           <div>
-            <span className="text-yellow-500">Open Now</span> - 8am - 9pm
+            <span className="text-yellow-500">Open Now</span> - {props.restaurantTimings}
           </div>
         </div>
       </div>

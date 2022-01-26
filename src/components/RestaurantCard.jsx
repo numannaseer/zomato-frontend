@@ -33,12 +33,12 @@ function RestaurantCard(props) {
             <div className="flex flex-col gap-2 items-start absolute">
               {props.isPro && (
                 <span className="bg-zomato-400 text-white px-2 py-1 rounded text-sm">
-                  Pro extra 10% off
+                  Pro extra 30% off
                 </span>
               )}
               {props.isOff && (
                 <span className="bg-blue-600 text-white px-2 py-1 rounded text-sm">
-                  &#8377;250 OFF
+                  &#8377;50 off
                 </span>
               )}
             </div>

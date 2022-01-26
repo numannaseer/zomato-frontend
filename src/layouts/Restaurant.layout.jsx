@@ -65,6 +65,9 @@ function RestaurantLayout({ children }) {
           address={restaurant?.address}
           deliveryRatingCount={restaurant?.deliveryReviewCount || 0}
           restaurantRatingCount={restaurant?.restaurantReviewCount || 0}
+          restaurantTimings={restaurant?.restaurantTimings}
+          isPro={restaurant?.isPro}
+          isOff={restaurant?.ifOff}
         />
         <div className="my-4 flex flex-wrap gap-3 mx-auto">
           <InfoButton isActive={true}>
