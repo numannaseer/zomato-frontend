@@ -107,11 +107,11 @@ function LargeNav({ SignIn, SignUp }) {
               />
             </div>
           </div>
-          {reduxState?.fullName ? (
+          {reduxState.user?.fullName ? (
             <div className="relative w-20">
               <div
                 onClick={() => setIsDropDownOpen((prev) => !prev)}
-                className="border border-gray-300 text-zomato-100 w-full h-15 rounded-full"
+                className="border border-gray-300 text-zomato-400 w-12 h-12 rounded-full"
               >
                 <img
                   src="https://flyclipart.com/thumb2/human-human-avatar-male-icon-with-png-and-vector-format-for-free-19807.png"
