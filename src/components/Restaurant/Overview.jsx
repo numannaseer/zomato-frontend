@@ -13,6 +13,9 @@ import { getReviews } from "../../redux/reducers/review/review.action";
 import { NextArrow, PrevArrow } from "../CarouselArrow";
 import MenuCollection from "./MenuCollection";
 import MenuSimilarRestaurantCard from "./MenuSimilarRestaurantCard";
+import MenuRestaurantCard1 from "./MenuRestaurantCard1";
+import MenuRestaurantCard2 from "./MenuRestaurantCard2";
+import MenuRestaurantCard3 from "./MenuRestaurantCard3";
 import ReviewCard from "./Reviews/ReviewCard";
 import MapView from "./MapView";
 
@@ -64,7 +67,7 @@ function Overview() {
     console.log(newRating);
   };
 
-  //   "1234324234.343,23414324214.243"
+  // Eg:  "1234324234.343,23414324214.243"
   //   mapAddress?.split(",")   // ["1234324234.343", "23414324214.243"]
   //   map((item) => parseFloat(item)); // [1234324234.343, 23414324214.243]
   const getLatLong = (mapAddress) => {
@@ -131,29 +134,17 @@ function Overview() {
               <h4 className="text-lg font-medium">Similar Restaurants</h4>
               <div>
                 <Slider {...settings}>
-                  <MenuSimilarRestaurantCard
-                    image="https://b.zmtcdn.com/data/pictures/chains/3/307893/69f1fa33c357f755f7021b7e35d59380.jpg"
-                    title="tea"
+                  <MenuRestaurantCard1
+                    image="https://i.pinimg.com/originals/8d/88/29/8d882914d84af17472d15f1d2e02bcb5.jpg"
+                    title="Mayura Bakery"
                   />
-                  <MenuSimilarRestaurantCard
-                    image="https://b.zmtcdn.com/data/pictures/chains/3/307893/69f1fa33c357f755f7021b7e35d59380.jpg"
-                    title="tea"
+                  <MenuRestaurantCard2
+                    image="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/fjbwaplymzzv5tjqczni"
+                    title="Biriyani Zone"
                   />
-                  <MenuSimilarRestaurantCard
-                    image="https://b.zmtcdn.com/data/pictures/chains/3/307893/69f1fa33c357f755f7021b7e35d59380.jpg"
-                    title="tea"
-                  />
-                  <MenuSimilarRestaurantCard
-                    image="https://b.zmtcdn.com/data/pictures/chains/3/307893/69f1fa33c357f755f7021b7e35d59380.jpg"
-                    title="tea"
-                  />
-                  <MenuSimilarRestaurantCard
-                    image="https://b.zmtcdn.com/data/pictures/chains/3/307893/69f1fa33c357f755f7021b7e35d59380.jpg"
-                    title="tea"
-                  />
-                  <MenuSimilarRestaurantCard
-                    image="https://b.zmtcdn.com/data/pictures/chains/3/307893/69f1fa33c357f755f7021b7e35d59380.jpg"
-                    title="tea"
+                  <MenuRestaurantCard3
+                    image="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/kykcfy84ddr4inukoa7v"
+                    title="Mc Donalds"
                   />
                 </Slider>
               </div>
