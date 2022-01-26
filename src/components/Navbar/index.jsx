@@ -107,7 +107,7 @@ function LargeNav({ SignIn, SignUp }) {
               />
             </div>
           </div>
-          {reduxState.user?.fullName ? (
+          {reduxState.user?.user?.fullName ? (
             <div className="relative w-20">
               <div
                 onClick={() => setIsDropDownOpen((prev) => !prev)}
