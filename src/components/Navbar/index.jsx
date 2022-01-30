@@ -133,13 +133,13 @@ function LargeNav({ SignIn, SignUp }) {
                 className="text-gray-500 text-xl hover:text-gray-800"
                 onClick={SignIn}
               >
-                Login
+                Log in
               </button>
               <button
                 className="text-gray-500 text-xl hover:text-gray-800"
                 onClick={SignUp}
               >
-                Signup
+                Sign up
               </button>
             </div>
           )}
