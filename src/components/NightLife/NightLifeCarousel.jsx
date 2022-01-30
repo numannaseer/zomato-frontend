@@ -37,7 +37,7 @@ function NightLifeCarousel() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 3,
           infinite:false,
           initialSlide: 0
